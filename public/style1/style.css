@@ -1,0 +1,136 @@
+body{
+    background-color:white;
+    max-width: 1300px;
+    margin: 0% auto;
+}
+header{
+    color: red;
+    padding-left: 7rem;
+    border-style: solid;
+    border-color:  #999999;
+    background-color: #999999;
+
+}
+header div{
+    display: flex;
+}
+.contact .contact-type {
+    background-color: red;
+    width: 40%;   
+    margin:0%;
+}
+.contact .contact-value {
+    background-color: black;
+    width: 500px;
+    margin:0%;
+}
+.contact {
+    display: flex;
+    margin:0;
+    justify-content: flex-end;
+    color: white;
+}
+#contact h3{
+    display: none;
+}
+#contact{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    
+}
+a{
+    color: red;
+}
+dd{
+    color: black;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 80px 10px 80px;
+    
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+h4{
+    color: red;
+}
+
+h3::before{
+    content:"\1F534";
+}
+.skills-primary::before{
+    content: "Main";
+}
+.skills-secondary::before{
+    content: "Other";
+}
+.skills-primary span{
+    display: flex;
+
+}
+.skill{
+    background-color: #CCCCCC;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.skills .skill{
+    background-color: #CCCCCC;
+    margin:2px;
+    padding:5px;
+
+}
+
+.skills-primary .skill:first-child span{
+background-color: red;
+display: inline-block;
+width: 50%;
+}
+.skills-primary .skill:nth-child(2) span{
+    background-color: red;
+    display: inline-block;
+    width: 30%;
+    }
+    .skills-primary .skill:nth-child(3) span{
+        background-color: red;
+        display: inline-block;
+        width: 10%;
+        }
+    
+.skills-secondary .skill:first-child span{
+    background-color: red;
+    display: inline-block;
+    width: 90%;
+    }
+    .skills-secondary .skill:nth-child(2) span{
+        background-color: red;
+        display: inline-block;
+        width: 50%;
+        }
+        .skills-secondary .skill:nth-child(3) span{
+            background-color: red;
+            display: inline-block;
+            width: 70%;
+            }
+    
+    .skills-secondary{
+        opacity: 0.7;
+    }
+    .experience-date-separator{
+        color: red;
+    }
+    .experience-institution::before{
+        content: "@";
+    }
+    .experience-location::before{
+        content:"In"
+    }
+        .experience-details{
+            color: silver;
+        }
